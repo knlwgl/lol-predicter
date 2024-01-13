@@ -1,6 +1,7 @@
 - Employed the Pandas library to process data from more than 125,000 League of Legends eSports games
     - Pruned data of NaN values and dropped nuisance columns (i.e. team id unnecessary as we have teamname)
     - Fit data values to be between 0 and 1 for later efficiency in supervised learning
+    - added rolling data for last 10 games of each team
 - Produced a model that predicts the outcome of future matches with 75% accuracy using the Ridge Classifier and Sequential Feature Selector from Scikit-Learn
     - used Sequential Feature Selector to select features of importance and fed them into the model
     - backtested the data for each year; previous years were used for training and the current year was used for testing - leading to us having predictions for all data after first year
