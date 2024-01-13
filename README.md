@@ -1,0 +1,3 @@
+- Employed the Pandas library to process data from more than 125,000 League of Legends eSports games
+    - sd
+- Produced a model that predicts the outcome of future matches with 75% accuracy using the Ridge Classifier and Sequential Feature Selector from Scikit-Learn
